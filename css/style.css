@@ -1,0 +1,74 @@
+body
+{
+    background-color: rgb(30, 32, 43);
+}
+
+.item {
+    margin-bottom: 15px !important;
+}
+.logo-img
+{
+    width: 80px;
+    height: 40px;
+}
+
+.small-fs
+{
+    font-size: 10px;
+}
+
+.fs-6
+{
+    font-size: 12px;
+}
+
+.app-container
+{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+}
+
+.bg-main-color 
+{
+    background-color: rgba(30, 32, 43, 0.905);
+}
+
+.bg-sec-color 
+{
+    background-color:#262936d1;
+}
+.next_day_name{
+    background-color:#262936d1;
+   
+}
+.fs-big
+{
+    font-size: 84px;
+    font-weight: bolder;
+}
+
+.footer-icons
+{
+    width: 20px;
+    height: 20px;
+}
+
+.text-light-blue
+{
+    color:#009ad8;
+}
+.bg-first-color{
+    background-color: rgba(30, 32, 43, 0.905);
+}
+
+
+@media screen and (max-width:600px) {
+    .item .bg-first-color {
+        background-color:#262936d1; 
+       
+    }
+    .item-content{
+        background-color: rgba(30, 32, 43, 0.905) ;
+    }
+}
+
